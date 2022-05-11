@@ -1,0 +1,258 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: monospace;
+}
+
+.header {
+  background: url(../img/bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.header .header__title {
+  color: white;
+  text-align: center;
+  top: 150px;
+  font-size: 26px;
+  position: relative;
+}
+
+.header .header__input {
+  width: 300px;
+  height: 400px;
+  margin: 200px auto 0 auto;
+  background-color: #282828;
+  border-radius: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header .header__input .inputs {
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 20px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.header .header__input .inputs .form-group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 10px;
+}
+
+.header .header__input .inputs .form-group label {
+  color: red;
+}
+
+.header .header__input .inputs input {
+  width: 250px;
+  height: 40px;
+  background: transparent;
+  border-radius: 10px;
+  padding: 0 0 0 10px;
+  outline: none;
+  color: white;
+}
+
+.header .header__input .inputs input::-webkit-input-placeholder {
+  color: rgba(255, 255, 255, 0.764);
+}
+
+.header .header__input .inputs input:-ms-input-placeholder {
+  color: rgba(255, 255, 255, 0.764);
+}
+
+.header .header__input .inputs input::-ms-input-placeholder {
+  color: rgba(255, 255, 255, 0.764);
+}
+
+.header .header__input .inputs input::placeholder {
+  color: rgba(255, 255, 255, 0.764);
+}
+
+.header .header__input .inputs .button {
+  width: 100px;
+}
+
+.header .header__input .inputs .buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.header .header__input .inputs .buttons .login {
+  width: 100px;
+  height: 40px;
+  border: 1px solid white;
+  border-radius: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.header .header__input .inputs .buttons .login a {
+  color: white;
+  text-decoration: none;
+}
+
+.container {
+  background: url(../img/bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.container .login__page .login__title {
+  color: white;
+  text-align: center;
+  top: 150px;
+  font-size: 26px;
+  position: relative;
+}
+
+.container .login__page .login__form {
+  width: 300px;
+  height: 180px;
+  margin: 200px auto 0 auto;
+  background-color: #282828;
+  border-radius: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .login__page .login__form .login__inputs {
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 20px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.container .login__page .login__form .login__inputs .login__input {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 10px;
+}
+
+.container .login__page .login__form .login__inputs .login__input .text-danger {
+  margin-top: 10px;
+}
+
+.container .login__page .login__form .login__inputs .login__input input {
+  width: 250px;
+  height: 40px;
+  background: transparent;
+  border-radius: 10px;
+  padding: 0 0 0 10px;
+  outline: none;
+  color: white;
+}
+
+.container .login__page .login__form .login__inputs .login__input input::-webkit-input-placeholder {
+  color: rgba(255, 255, 255, 0.764);
+}
+
+.container .login__page .login__form .login__inputs .login__input input:-ms-input-placeholder {
+  color: rgba(255, 255, 255, 0.764);
+}
+
+.container .login__page .login__form .login__inputs .login__input input::-ms-input-placeholder {
+  color: rgba(255, 255, 255, 0.764);
+}
+
+.container .login__page .login__form .login__inputs .login__input input::placeholder {
+  color: rgba(255, 255, 255, 0.764);
+}
+
+.container .homme__page {
+  padding-top: 50px;
+  position: relative;
+  font-size: 50px;
+}
+
+.container .homme__page .home__user {
+  margin-left: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 100px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 30px;
+}
+
+.container .homme__page .home__user .home__name {
+  font-size: 40px;
+}
+
+.container .homme__page .home__user .home__avatar {
+  background-color: grey;
+  width: 70px;
+  height: 70px;
+  border-radius: 100%;
+}
+
+.container .homme__page .home__out {
+  margin-top: 20px;
+  margin-left: 70px;
+  width: 100px;
+  height: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border: 1px solid white;
+  border-radius: 10px;
+}
+
+.container .homme__page .home__out a {
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+}
+/*# sourceMappingURL=index.css.map */
