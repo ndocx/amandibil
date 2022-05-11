@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+
+.header{
+    background: url(../img/bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    .header__title{
+        color: white;
+        text-align: center;
+        top: 150px;
+        font-size: 26px;
+        position: relative;
+    }
+    .header__input{
+        width: 300px;
+        height: 400px;
+        margin: 200px auto 0 auto;
+        background-color: rgb(40, 40, 40);
+        border-radius: 20px;
+        display: flex;
+        align-items: center;
+        
+        .inputs{
+            margin: 0 auto ;
+            display: flex;
+            gap: 20px;
+            flex-direction: column;
+            .form-group{
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+                label{
+                    color: red;
+                }
+            }
+            input{
+                width: 250px;
+                height: 40px;
+                background: transparent;
+                border-radius: 10px;
+                padding: 0 0 0 10px;
+                outline: none;
+                color: white;
+                &::placeholder{
+                    color: rgba(255, 255, 255, 0.764);
+                }
+            }
+            .button{
+                width: 100px;
+                
+
+            }
+            .buttons{
+                display: flex;
+                
+                .login{
+                    width: 100px;
+                    height: 40px;
+                    border: 1px solid white;
+                    border-radius: 10px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    a{
+                        color: white;
+                        text-decoration: none;
+                    }
+                }
+            }
+            
+        }
+    }
+}
+.container{
+    background: url(../img/bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    .login__page{
+        .login__title{
+            color: white;
+            text-align: center;
+            top: 150px;
+            font-size: 26px;
+            position: relative;
+        }
+        .login__form{
+            width: 300px;
+            height: 180px;
+            margin: 200px auto 0 auto;
+            background-color: rgb(40, 40, 40);
+            border-radius: 20px;
+            display: flex;
+            align-items: center;
+            .login__inputs{
+                margin: 0 auto ;
+                display: flex;
+                gap: 20px;
+                flex-direction: column;
+                .login__input{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 10px;
+                    .text-danger{
+                        margin-top: 10px;
+                    }
+                    input{
+                    width: 250px;
+                    height: 40px;
+                    background: transparent;
+                    border-radius: 10px;
+                    padding: 0 0 0 10px;
+                    outline: none;
+                    color: white;
+                    &::placeholder{
+                        color: rgba(255, 255, 255, 0.764);
+                    }
+                    }
+                }
+            }
+        }
+    }
+}
+.container{
+    .homme__page{
+        padding-top: 50px;
+        position: relative;
+        font-size: 50px;
+        .home__user{
+            margin-left: 40px;
+            display: flex;
+            padding-top: 100px;
+            align-items: center;
+            gap: 30px;
+            .home__name{
+                font-size: 40px;
+            }
+            .home__avatar{
+                background-color: grey;
+                width: 70px;
+                height: 70px;
+                border-radius: 100%;
+            }
+        }
+        .home__out{
+            margin-top: 20px;
+            margin-left: 70px;
+            width: 100px;
+            height: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 1px solid white;
+            border-radius: 10px;
+            a{
+                text-decoration: none;
+                font-size: 20px;
+                color: white;
+            }
+        }
+    }
+}
